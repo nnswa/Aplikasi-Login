@@ -52,7 +52,7 @@ loginFormElement.addEventListener('submit', function(event) {
    */
   const password = inputPasswordElement.value;
   
-   /* Comment : Memastikan bahwa nilai email dan password sesuai dengan nilai yang tersimpan. */
+  /* Comment : Memastikan bahwa nilai email dan password sesuai dengan nilai yang tersimpan. */
   if (email == expectedEmail && password == expectedPassword) {
 
     /* Comment : Jika sesuai maka program akan berpindah ke halaman home. */
